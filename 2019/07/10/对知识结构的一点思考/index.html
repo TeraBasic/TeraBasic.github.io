@@ -133,11 +133,19 @@
 
 
 <ul>
-    <li><div class="all active">全部文章<small>(10)</small></div></li>
+    <li><div class="all active">全部文章<small>(9)</small></div></li>
     
         
             
-            <li><div data-rel="计算机">计算机<small>(1)</small></div>
+            <li><div data-rel="大数据">大数据<small>(1)</small></div>
+                
+            </li>
+            
+        
+    
+        
+            
+            <li><div data-rel="数据库">数据库<small>(1)</small></div>
                 
             </li>
             
@@ -153,7 +161,7 @@
     </div>
     <div><a class="about  hasFriend  site_url"  href="/about">关于</a><a style="width: 50%"  class="friends">友链</a></div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="10">
+<input type="hidden" id="yelog_site_posts_number" value="9">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -188,7 +196,11 @@
     <div class="tags-list">
     
     <li class="article-tag-list-item">
-        <a class="color4">数据库</a>
+        <a class="color4">大数据</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a class="color4">sql</a>
     </li>
     
     <div class="clearfix"></div>
@@ -197,36 +209,20 @@
     
     <nav id="title-list-nav">
         
-        <a  class=""
-           href="/2019/09/29/一切都是常识之大数据/"
-           data-tag=""
+        <a  class="大数据 "
+           href="/2019/09/06/一切都是常识之大数据/"
+           data-tag="大数据"
            data-author="" >
-            <span class="post-title" title=""></span>
-            <span class="post-date" title="2019-09-29 18:52:34">2019/09/29</span>
-        </a>
-        
-        <a  class=""
-           href="/2019/09/29/一切都是常识之经济/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title=""></span>
-            <span class="post-date" title="2019-09-29 18:52:09">2019/09/29</span>
-        </a>
-        
-        <a  class="计算机 "
-           href="/2019/09/06/一切都是常识_数据库/"
-           data-tag="数据库"
-           data-author="" >
-            <span class="post-title" title="一切都是常识：数据库">一切都是常识：数据库</span>
+            <span class="post-title" title="一切都是常识：大数据">一切都是常识：大数据</span>
             <span class="post-date" title="2019-09-06 15:13:47">2019/09/06</span>
         </a>
         
-        <a  class=""
-           href="/2019/07/06/序/"
-           data-tag=""
+        <a  class="数据库 "
+           href="/2019/09/06/一切都是常识_数据库/"
+           data-tag="sql"
            data-author="" >
-            <span class="post-title" title="序">序</span>
-            <span class="post-date" title="2019-07-06 20:44:56">2019/07/06</span>
+            <span class="post-title" title="一切都是常识：数据库">一切都是常识：数据库</span>
+            <span class="post-date" title="2019-09-06 15:13:47">2019/09/06</span>
         </a>
         
         <a  class=""
@@ -238,11 +234,11 @@
         </a>
         
         <a  class=""
-           href="/2019/07/10/未来为谁而来/"
+           href="/2019/07/06/序/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="未来，为谁而来">未来，为谁而来</span>
-            <span class="post-date" title="2019-07-10 20:44:56">2019/07/10</span>
+            <span class="post-title" title="序">序</span>
+            <span class="post-date" title="2019-07-06 20:44:56">2019/07/06</span>
         </a>
         
         <a  class=""
@@ -251,6 +247,14 @@
            data-author="" >
             <span class="post-title" title="对知识结构的一点思考">对知识结构的一点思考</span>
             <span class="post-date" title="2019-07-10 00:00:00">2019/07/10</span>
+        </a>
+        
+        <a  class=""
+           href="/2019/07/10/未来为谁而来/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="未来，为谁而来">未来，为谁而来</span>
+            <span class="post-date" title="2019-07-10 20:44:56">2019/07/10</span>
         </a>
         
         <a  class=""
@@ -430,7 +434,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#数据库',],
+            'data': ['#大数据','#sql',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
